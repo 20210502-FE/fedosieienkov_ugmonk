@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0;
+    background: #CED3CA;
+}
+.top-banner__text {
+    margin-right: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.button {
+    text-align: center;
+}
+
+.button_black {
+    color: #F7F7F7;
+    background-color: #1A1A1A;
+    border: none;
+}
+
+.top-banner__button {
+    padding: 1px 13px;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.header {
+    background-color: #ffffff;
+    color: #292929;
+}
+
+.header__wrapper {
+    display: flex;
+    padding: 32px 17px 42px 0;
+    max-width: calc(100% - 121px - 75px);
+    margin: 0 auto;
+    border-right: 1px solid #1A1A1A;
+}
+
+.header__logo {
+    margin-right: 50px;
+    margin-left: -36px;
+    width: 265px;
+    max-width: 265px;
+}
+
+.header__left, .header__right {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    justify-content: flex-end;
+}
+
+.header__left ul, .header__right ul {
+    display: flex;
+}
+
+.header__nav a {
+    color: #292929;
+}
+
+.header__nav a:hover {
+    color: #9E9E9E ;
+    transition: color 0.3s ease;
+}
+
+.header__nav_left {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__nav_right {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header__nav_left .header__nav-item {
+    margin: 0 16px;
+}
+
+.header__nav_right .header__nav-item {
+    padding: 0 13px;
+}
+
+.header__nav_right .header__nav-item:nth-child(odd) {
+    border-right: 1px solid #1A1A1A;
+}
+
+.header__nav_right .header__nav-item:nth-child(2) {
+    padding-right: 17px;
+}
+
+.header__nav-item-icon img {
+    max-width: 18px;
+}
+
+.banner {
+    background-image: url(../assets/images/banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.banner__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    align-items: flex-start;
+}
+
+.banner__content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 1px;
+}
+
+.banner__content a {
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 15px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.specials {
+    padding-top: 40px;
+    padding-bottom: 171px;
+}
+
+.spesials__nav-list {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 55px;
+}
+
+.spesials__nav-item {
+    margin: 0 24px;
+}
+
+.spesials__nav-link {
+    color: #B3B3B3;
+}
+
+.spesials__nav-link:hover {
+    color: #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    padding-bottom: 5px;
+    transition: all 0.3s ease-in;
+}
+
+.spesials__nav-link_active {
+    color: #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    padding-bottom: 5px;
+}
+
+.spesials__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.specials__button {
+    font-size: 20px;
+    line-height: 56px;
+    padding: 1px 61px;
+    margin: auto;
+    margin-top: 66px;
+}
+
+.product {
+    padding-bottom: 30px;
+}
+
+.product__title {
+    margin-top: 11px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1A1A1A;
+}
+
+.product__title_gray {
+    font-size: 15px;
+    line-height: 18px;
+    color: #A8A8A8;
+}
+
+.product__price {
+    font-size: 13px;
+    line-height: 13px;
+    color: #808080;
+}
+
+.product__price_red {
+    font-size: 13px;
+    line-height: 13px;
+    color: #FF3451;
+}
+
+.flex-column{
+    padding: 0 10px;
+}
+
+.flex-column_25 {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+
