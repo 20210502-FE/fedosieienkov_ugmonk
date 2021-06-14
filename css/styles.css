@@ -216,6 +216,8 @@ img {
 }
 
 .spesials__content {
+    font-style: normal;
+    font-weight: normal;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px;
@@ -270,7 +272,7 @@ img {
 
 .sales {
     background-color: #CED3CA;
-    padding: 127px;
+    padding: 127px 0;
 }
 
 .sale__content {
@@ -278,7 +280,7 @@ img {
     background-color: #F7F7F7;
 }
 
-.sale__left {
+.sales__description {
     flex-direction: column;
     flex-grow: 1;
 }
@@ -310,12 +312,12 @@ img {
     transition: all 0.3s ease-in;
 }
 
-.img__sale {
+.sale__img {
     display: flex;
 }
 
-.img__sale img {
-    width: 754px;
+.sale__img img {
+    max-width: 754px;
     height: 406px;
 }
 
@@ -329,13 +331,16 @@ img {
 
 .products__men-women {
     display: flex;
-    margin: 0 -58px;
+    margin: 0 -58px 72px;
 }
 
 .products__text {
+    font-style: normal;
+    font-weight: normal;
     width: 630px;
     font-size: 30px;
     line-height: 36px;
+    color: #1A1A1A;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 92px;
@@ -364,7 +369,6 @@ img {
     padding-right: 15px;
     border-bottom: 1px solid #1A1A1A;
     width: max-content;
-    margin-bottom: 72px;
 }
 
 .products__link:hover {
@@ -379,7 +383,7 @@ img {
 
 .organizer {
     background-color: #CED3CA;
-    padding: 127px;
+    padding: 127px 0;
 }
 
 .organizer__content {
@@ -387,7 +391,7 @@ img {
     background-color: #F7F7F7;
 }
 
-.organizer__left {
+.organizer__description {
     flex-direction: column;
     flex-grow: 1;
 }
@@ -424,26 +428,26 @@ img {
     padding-bottom: 5px;
 }
 
-.img__organizer {
+.organizer__img {
     display: flex;
 }
 
-.img__organizer img {
-    width: 754px;
+.organizer__img img {
+    max-width: 754px;
     height: 406px;
 }
 
-.organizer__left-box {
+.organizer__description-box {
     padding-top: 90px;
     padding-left: 93px;
 }
 
-.design-studio__bg_img {
+.design-studio {
     background-image: url(../assets/images/design-studio.png);
     height: 600px;
 }
 
-.design-studio__wrapper_content {
+.design-studio__content {
     width: 782px;
     text-align: center;
     margin: 0 auto;
