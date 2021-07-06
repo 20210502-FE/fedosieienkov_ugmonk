@@ -186,7 +186,7 @@ img {
     padding-bottom: 171px;
 }
 
-.spesials__nav-list {
+.specials__nav-list {
     display: flex;
     justify-content: center;
     font-size: 17px;
@@ -194,22 +194,22 @@ img {
     margin-bottom: 55px;
 }
 
-.spesials__nav-item {
+.specials__nav-item {
     margin: 0 24px;
 }
 
-.spesials__nav-link {
+.specials__nav-link {
     color: #B3B3B3;
 }
 
-.spesials__nav-link:hover {
+.specials__nav-link:hover {
     color: #1A1A1A;
     border-bottom: 1px solid #1A1A1A;
     padding-bottom: 5px;
     transition: all 0.3s ease-in;
 }
 
-.spesials__nav-link_active {
+.specials__nav-link_active {
     color: #1A1A1A;
     border-bottom: 1px solid #1A1A1A;
     padding-bottom: 5px;
@@ -283,14 +283,14 @@ img {
 .sales__description {
     flex-direction: column;
     flex-grow: 1;
+    padding-top: 90px ;
+    padding-left: 93px;
 }
 
 .sale__title {
     font-size: 38px;
     line-height: 46px;
     color: #1A1A1A;
-    padding-top: 90px ;
-    padding-left: 93px;
 }
 
 .sale__link {
@@ -301,7 +301,6 @@ img {
     padding-right: 15px;
     border-bottom: 1px solid #1A1A1A;
     padding-top: 33px ;
-    margin-left: 93px;
     width: max-content;
 }
 
@@ -481,7 +480,7 @@ img {
     display: flex;
 }
 
-.check-in__wrapper_content {
+.check-in__wrapper {
     text-align: center;
     margin: 0 auto;
     flex-direction: column;
@@ -518,19 +517,15 @@ img {
 }
 
 .footer {
-    padding: 90px 140px;
+    padding: 90px 0px;
 }
 
-.wrapper_footer {
-    margin-left: -140px;
+.footer__wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.column_footer {
-    padding-left: 140px;
-}
-.column_footer_auto {
+.footer__column_auto {
     margin-left: auto;
 }
 
@@ -538,7 +533,7 @@ img {
     width: 55px;
 }
 
-.text_wrapper {
+.footer__column_right_text {
     display: flex;
 }
 
@@ -548,18 +543,18 @@ img {
     text-align: right;
 }
 
-.icon_box {
+.footer__icon {
     display: flex;
     margin-right: -15px;
     justify-content: flex-end;
 }
 
-.icon_social_networks {
+.footer__icon_networks {
     padding-left: 15px;
     padding-top: 37px;
 }
 
-.icon_social_networks_1 {
+.footer__icon_networks_1 {
     padding-right: 15px;
 }
 
@@ -567,11 +562,11 @@ img {
     margin-bottom: 15px;
 }
 
-.text__left {
+.footer__column_left_text {
     padding-bottom: 14px;
 }
 
-.text__center {
+.footer__column_center_text {
     padding-bottom: 14px;
     padding-right: 269px;
 }
